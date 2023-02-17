@@ -1,0 +1,53 @@
+:root {
+    --bittersweet: #eb5e55ff;
+    --jet: #3a3335ff;
+    --raspberry: #d81e5bff;
+    --papaya-whip: #fdf0d5ff;
+    --ash-gray: #c6d8d3ff;
+}
+
+/*font-family: 'Maven Pro', sans-serif;
+weights: 400 600 700 900
+*/
+
+body {
+    background-color: var(--jet);
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+header nav {
+    background-color: var(--jet);
+    text-align: center;
+}
+
+header nav h1 {
+    font-weight: 900;
+    letter-spacing: 1.3px;
+    color: var(--ash-gray);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div {
+    width: 400px;
+    height: 200px;
+    background-color: var(--papaya-whip);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 10px 0px 0px;
+}
+
+main div h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.username {
+    color: var(--raspberry);
+    padding-top: 0;
+    margin-top: 0;
+}
